@@ -73,20 +73,15 @@ Created with the goal of assisting fellow students and juniors from the **Depart
 
 PlacementHub/
 │
-├── static/ # CSS, JavaScript, icons, etc.
-├── templates/ # Jinja2 HTML Templates
-├── uploaded_files/ # Uploaded documents (PDFs, DOCX, etc.)
-├── screenshot/ # Screenshot images used in README
+├── 🧾 static/ → CSS, JavaScript, fonts, icons, etc.
+├── 🖼️ templates/ → HTML templates rendered with Jinja2
+├── 📂 uploaded_files/ → Uploaded study materials (PDFs, DOCX, etc.)
 │
-├── app.py # Main Flask application
-├── counter.json # Download counter
-├── visitor.json # Visitor counter
-├── admin.json # Admin login credentials
-├── README.md # Project documentation
-
-yaml
-Copy
-Edit
+├── 🧠 app.py → Main Flask application logic
+├── 📊 counter.json → Tracks download counts of materials
+├── 👁️ visitor.json → Logs site visit information
+├── 🔐 admin.json → Stores admin login data (hashed credentials)
+├── 📘 README.md → Project documentation (you're here!)
 
 ---
 
