@@ -26,13 +26,13 @@ Created with the goal of assisting fellow students and juniors from the **Depart
 
 ## 🌟 Key Features
 
-- ✅ **Admin Dashboard** for secure login and file uploads
-- ✅ **Downloadable Study Materials** grouped by topics
-- ✅ **Real-time Download Counter** stored in `counter.json`
-- ✅ **Visitor Analytics** to track student engagement
-- ✅ **Categorized Filters** for easy navigation
-- ✅ **Fully Responsive Design** (mobile-friendly)
-- ✅ **Live Analytics Dashboard** to monitor usage trends
+- ✅ **Admin Dashboard** for secure login and file uploads  
+- ✅ **Downloadable Study Materials** grouped by topics  
+- ✅ **Real-time Download Counter** stored in `counter.json`  
+- ✅ **Visitor Analytics** to track student engagement  
+- ✅ **Categorized Filters** for easy navigation  
+- ✅ **Fully Responsive Design** (mobile-friendly)  
+- ✅ **Live Analytics Dashboard** to monitor usage trends  
 
 ---
 
@@ -56,8 +56,8 @@ Created with the goal of assisting fellow students and juniors from the **Depart
 - **Werkzeug Security** – password hashing and session management
 
 ### 🗃️ Data Management
-- `counter.json` – tracks download counts per file
-- `visitor.json` – tracks site visits
+- `counter.json` – tracks download counts per file  
+- `visitor.json` – tracks site visits  
 - `admin.json` – stores admin credentials (hashed)
 
 ### 📊 Analytics & Filters
@@ -65,9 +65,7 @@ Created with the goal of assisting fellow students and juniors from the **Depart
 - Real-time stats displayed to the admin panel using AJAX
 
 ### ☁️ Hosting
-- **PythonAnywhere (Free Tier)**  
-  - Ideal for educational Flask projects  
-  - Handles lightweight JSON storage well
+- **PythonAnywhere (Free Tier)** – ideal for educational Flask apps with lightweight storage needs
 
 ---
 
@@ -78,13 +76,13 @@ PlacementHub/
 ├── static/ # CSS, JavaScript, icons, etc.
 ├── templates/ # Jinja2 HTML Templates
 ├── uploaded_files/ # Uploaded documents (PDFs, DOCX, etc.)
-├── screenshots/ # Screenshot images used in README
+├── screenshot/ # Screenshot images used in README
 │
-├── app.py # Main Flask Application
-├── counter.json # Download Tracker
-├── visitor.json # Visitor Tracker
-├── admin.json # Admin login data (hashed)
-├── README.md # You're reading this!
+├── app.py # Main Flask application
+├── counter.json # Download counter
+├── visitor.json # Visitor counter
+├── admin.json # Admin login credentials
+├── README.md # Project documentation
 
 yaml
 Copy
@@ -100,7 +98,7 @@ Visual overview of the Placement Hub platform.
 
 ### 🏠 Homepage
 
-| ![Homepage Image 1](screenshots/i1.png) | ![Homepage Image 2](screenshots/i2.png) |
+| ![Homepage Image 1](screenshot/i1.png) | ![Homepage Image 2](screenshot/i2.png) |
 |----------------------------------------|----------------------------------------|
 | Homepage View 1                        | Homepage View 2                        |
 
@@ -108,13 +106,13 @@ Visual overview of the Placement Hub platform.
 
 ### 🔐 Admin Login Panel
 
-![Admin Panel](screenshots/admin.png)
+![Admin Panel](screenshot/admin.png)
 
 ---
 
 ### 📤 File Upload Section
 
-| ![File Upload 1](screenshots/a2.png) | ![File Upload 2](screenshots/a3.png) |
+| ![File Upload 1](screenshot/a2.png) | ![File Upload 2](screenshot/a3.png) |
 |-------------------------------------|-------------------------------------|
 | Upload Interface Step 1             | Upload Interface Step 2             |
 
@@ -122,7 +120,7 @@ Visual overview of the Placement Hub platform.
 
 ### 📈 Analytics Dashboard
 
-| ![Analytics 1](screenshots/i2.png) | ![Analytics 2](screenshots/i3.png) |
+| ![Analytics 1](screenshot/i2.png) | ![Analytics 2](screenshot/i3.png) |
 |-----------------------------------|-----------------------------------|
 | Downloads Overview                | Visitor Insights                  |
 
@@ -130,7 +128,7 @@ Visual overview of the Placement Hub platform.
 
 ### 📥 Downloadable Materials View
 
-![Downloads Section](screenshots/i4.png)
+![Downloads Section](screenshot/i4.png)
 
 ---
 
