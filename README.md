@@ -58,7 +58,7 @@ Created with the goal of assisting fellow students and juniors from the **Depart
 ### 🗃️ Data Management
 - `counter.json` – tracks download counts per file
 - `visitor.json` – tracks site visits
-- `admin.json` – stores admin credentials (can be encrypted or hashed)
+- `admin.json` – stores admin credentials (hashed)
 
 ### 📊 Analytics & Filters
 - Dynamic UI rendering for filtered file display  
@@ -78,6 +78,7 @@ PlacementHub/
 ├── static/ # CSS, JavaScript, icons, etc.
 ├── templates/ # Jinja2 HTML Templates
 ├── uploaded_files/ # Uploaded documents (PDFs, DOCX, etc.)
+├── screenshots/ # Screenshot images used in README
 │
 ├── app.py # Main Flask Application
 ├── counter.json # Download Tracker
@@ -85,9 +86,51 @@ PlacementHub/
 ├── admin.json # Admin login data (hashed)
 ├── README.md # You're reading this!
 
-markdown
+yaml
 Copy
 Edit
+
+---
+
+## 📸 Screenshots
+
+Visual overview of the Placement Hub platform.
+
+---
+
+### 🏠 Homepage
+
+| ![Homepage Image 1](screenshots/i1.png) | ![Homepage Image 2](screenshots/i2.png) |
+|----------------------------------------|----------------------------------------|
+| Homepage View 1                        | Homepage View 2                        |
+
+---
+
+### 🔐 Admin Login Panel
+
+![Admin Panel](screenshots/admin.png)
+
+---
+
+### 📤 File Upload Section
+
+| ![File Upload 1](screenshots/a2.png) | ![File Upload 2](screenshots/a3.png) |
+|-------------------------------------|-------------------------------------|
+| Upload Interface Step 1             | Upload Interface Step 2             |
+
+---
+
+### 📈 Analytics Dashboard
+
+| ![Analytics 1](screenshots/i2.png) | ![Analytics 2](screenshots/i3.png) |
+|-----------------------------------|-----------------------------------|
+| Downloads Overview                | Visitor Insights                  |
+
+---
+
+### 📥 Downloadable Materials View
+
+![Downloads Section](screenshots/i4.png)
 
 ---
 
@@ -121,4 +164,7 @@ Sayak Biswas
 
 📬 Email: sayakbiswas31.career@gmail.com
 
-🤝 “Built by a student, for students — empowering placement success through organized access.
+🤝 “Built by a student, for students — empowering placement success through organized access.”
+
+📝 License
+This project is built for academic and educational use. You may reuse or customize it with credit to the author
