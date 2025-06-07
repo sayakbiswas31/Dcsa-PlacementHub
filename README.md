@@ -69,6 +69,7 @@ Created with the goal of assisting fellow students and juniors from the **Depart
 
 ---
 
+'''
 ## 📁 Project Structure
 
 PlacementHub/
@@ -82,6 +83,8 @@ PlacementHub/
 ├── 👁️ visitor.json         → Logs site visit information
 ├── 🔐 admin.json           → Stores admin login data (hashed credentials)
 ├── 📘 README.md            → Project documentation (you're here!)
+
+'''
 
 
 ---
