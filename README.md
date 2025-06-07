@@ -83,6 +83,7 @@ PlacementHub/
 ├── 🔐 admin.json → Stores admin login data (hashed credentials)
 ├── 📘 README.md → Project documentation (you're here!)
 
+
 ---
 
 ## 📸 Screenshots
